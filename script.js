@@ -6,7 +6,7 @@ var queryURL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?' + par
 //----------------------------------------------------------------------
 
 $.ajax({
-    url: queryURL,
+    url: https:'//api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=MousSd71xGs7yZKANjFEMGWgP9ffYHtV',
     method: "GET"
   }).then(function(response) {
     console.log(response);
